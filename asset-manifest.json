@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/portfolio-web/static/css/main.9ff9102f.css",
+    "main.js": "/portfolio-web/static/js/main.2601d52f.js",
+    "static/media/resume.pdf": "/portfolio-web/static/media/resume.ff9c0419ff426b2e1d9d.pdf",
+    "static/media/lined-paper-2.png": "/portfolio-web/static/media/lined-paper-2.9c5e9911c7da0779bba3.png",
+    "index.html": "/portfolio-web/index.html",
+    "main.9ff9102f.css.map": "/portfolio-web/static/css/main.9ff9102f.css.map",
+    "main.2601d52f.js.map": "/portfolio-web/static/js/main.2601d52f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9ff9102f.css",
+    "static/js/main.2601d52f.js"
+  ]
+}
