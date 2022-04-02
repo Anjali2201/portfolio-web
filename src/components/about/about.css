@@ -13,9 +13,12 @@
     grid-template-columns: repeat(3,1fr);
     gap: 1.5rem;
     align-items: center;
+   
+   
 
 }
 .about_card{
+    
     background: var(--color-bg-variant);
    opacity: 70%;
     border: 1px solid transparent;
@@ -60,7 +63,7 @@
 /*------Medium device----*/
 @media screen and (max-width: 1024px){
     #about{
-        height: 90vh;
+        height: 90%;
     }
     
     .about_card{
@@ -72,6 +75,8 @@
     }
     .about_cards{
         grid-template-columns:1fr;
+        width: 100%;
+        align-items: center;
     }
     .about_card small{
         font-size: 1rem;
@@ -80,8 +85,6 @@
     .about_content{
         padding: 0rem 1rem 1rem ;
     }
-    
-    
  }
  
  /*------Small device----*/
@@ -92,7 +95,7 @@
     
     .about_card{
         height: 20vh;
-        width: 90%;
+        width: 100%;
         margin-bottom: 1rem;
 
     }
