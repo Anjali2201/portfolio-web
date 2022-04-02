@@ -1,0 +1,117 @@
+#about{
+    height: 80vh;
+}
+.about_container{
+    display: grid;
+    gap: 15%;
+
+}
+
+
+.about_cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.5rem;
+    align-items: center;
+
+}
+.about_card{
+    background: var(--color-bg-variant);
+   opacity: 70%;
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+    height: 40vh;
+    width: 50vh;
+    transition: var(--transition);
+   
+
+}
+.about_card:hover{
+    
+    border-color: var(--color-primary-variant);
+    cursor: default;
+    box-shadow:  3px 3px 10px var(--color-primary);
+}
+.about_icon{
+    color: var(--color-primary);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.about_card h5{
+    font-size: 0.95rem;
+}
+.about_card small{
+    font-size: 0.85rem;
+    color: var(--color-light);
+
+}
+.para{
+    align-items: center;
+}
+.para p{
+    text-align: center;
+    margin: 2rem 5rem 2.6rem;
+    color: var(--color-light);
+}
+/* ================= MEDIA QUERY ===================*/
+
+/*------Medium device----*/
+@media screen and (max-width: 1024px){
+    #about{
+        height: 90vh;
+    }
+    
+    .about_card{
+        height: 15vh;
+        width: 100%;
+        margin-bottom: 1rem;
+        padding: 1rem;
+
+    }
+    .about_cards{
+        grid-template-columns:1fr;
+    }
+    .about_card small{
+        font-size: 1rem;
+       
+    }
+    .about_content{
+        padding: 0rem 1rem 1rem ;
+    }
+    
+    
+ }
+ 
+ /*------Small device----*/
+ @media screen and (max-width: 600px){
+    #about{
+        height: 130vh;
+    }
+    
+    .about_card{
+        height: 20vh;
+        width: 90%;
+        margin-bottom: 1rem;
+
+    }
+    small{
+        display: none;
+    }
+    .about_cards{
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+    .about_card small{
+        font-size: 1rem;
+       
+    }
+  
+    .para p{
+        text-align: center;
+        margin: 0 2rem 2.6rem;
+        color: var(--color-light);
+    }
+ }
+ 

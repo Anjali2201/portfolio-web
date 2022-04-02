@@ -1,0 +1,74 @@
+.test-container{
+    display: grid;
+    gap: 5%;
+
+}
+.test-container > div{
+    opacity: 70%;
+    background: var(--color-bg-variant);
+    padding: 2.4rem 3.8rem;
+    border-radius: 1rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+.test-container > div:hover{
+    box-shadow:  3px 3px 10px var(--color-primary);
+    border-color: var(--color-primary-variant);
+
+}
+.test_ele{
+    display: flex;
+    gap: 2rem;
+   
+}
+.test-container > div h2{
+    font-size: 1rem;
+    color: var(--color-primary);
+}
+
+.test_ele_icon{
+    margin-top: 8px;
+    color: var(--color-primary);
+}
+.right{
+    text-align: right;
+}
+/* ================= MEDIA QUERY ===================*/
+
+/*------Medium device----*/
+@media screen and (max-width: 1024px){
+  #test{
+      height: 80%;
+  }
+  .test_ele_icon{
+   display: none;
+}
+
+ }
+ 
+ /*------Small device----*/
+ @media screen and (max-width: 600px){
+    #test{
+        height: 90vh;
+    }
+    .test_ele_icon{
+        display: none;
+     }
+     .test-container{
+        align-items: center;
+       padding: 1rem;
+    }
+    .test-container > div{
+      
+        padding: 1.5rem 1.5rem;
+       
+    }
+     .test_ele{
+        align-items: center;
+        gap: 1rem;
+        width: 100%;
+        height: 20vh;
+        display: inline;
+       
+    }
+ }
