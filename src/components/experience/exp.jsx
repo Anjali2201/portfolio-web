@@ -62,7 +62,7 @@ const exp = () => {
 
             <article className="exp_detail">
               <SiMysql className='exp_detail-icon' />
-              <div>  <h4>MySQL</h4>
+              <div>  <h4>SQL</h4>
                 <small className='text-light'>Intermediate</small>
               </div>
               </article>
@@ -77,7 +77,7 @@ const exp = () => {
           <article className="exp_detail">
             <FaJava className='exp_detail-icon' />
             <div>  <h4>Java</h4>
-              <small className='text-light'>Experienced</small>
+              <small className='text-light'>Intermediate</small>
             </div></article>
 
           <article className="exp_detail">
@@ -92,7 +92,7 @@ const exp = () => {
               <small className='text-light'>Basic</small>
             </div></article>
 
-          <article className="exp_detail">
+          {/* <article className="exp_detail">
             <AiOutlineDatabase className='exp_detail-icon'/>
             <div>  <h4>DSA</h4>
               <small className='text-light'>Intermediate</small>
@@ -102,7 +102,7 @@ const exp = () => {
             <FaRegObjectUngroup className='exp_detail-icon'/>
             <div>  <h4>OOPS</h4>
               <small className='text-light'>Intermediate</small>
-            </div></article>
+            </div></article> */}
 
         </div>
 </div>

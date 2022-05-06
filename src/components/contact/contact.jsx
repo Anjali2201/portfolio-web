@@ -1,8 +1,8 @@
 import React from 'react'
 import './contact.css'
 import { ImMail2 } from 'react-icons/im'
-import { BsInstagram } from 'react-icons/bs'
-
+// import { BsInstagram } from 'react-icons/bs'
+import  {ImLinkedin} from 'react-icons/im'
 
 const contact = () => {
   
@@ -13,18 +13,19 @@ const contact = () => {
 
       <div className="container contact_container">
         <div className="contact_options">
+          
           <article className="contact_option">
             <ImMail2 className='icon'/>
             <h4>Email</h4>
-            
             <a href="mailto:anjalikushwaha031@gmail.com">Send a message</a>
+         
           </article>
           <article className="contact_option">
-            <BsInstagram className='icon' />
-            <h4>Instagram</h4>
-            
-            <a href="https://www.instagram.com/by.anjallii/">Send a message</a>
+          <ImLinkedin className='icon' />
+            <h4>LinkedIn</h4>
+            <a href="https://www.linkedin.com/in/anjallliii/" >Send a message</a>
           </article>
+
         </div>
 
         <form action="https://formsubmit.co/anjalikushwaha031@gmail.com" method="POST" >
